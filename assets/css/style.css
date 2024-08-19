@@ -17,8 +17,17 @@ body {
   background: transparent;
 }
 /* ============================== */
+/* *{
+  border: 2px solid red;
+} */
 
 
+.bgyi{
+ margin-left: 110px;
+}
+.abstract{
+  margin-top: 190px;
+}
 
 
 
