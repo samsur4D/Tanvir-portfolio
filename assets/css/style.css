@@ -17,9 +17,9 @@ body {
   background: transparent;
 }
 /* ============================== */
-*{
+/* *{
   border: 2px solid red;
-}
+} */
 
 
 .bgyi{
@@ -35,15 +35,14 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/IMG_20240818_210308_890@1940634825\ \(1\).jpg") top right no-repeat;
+  background: #040404 url("../img/real.png") top right no-repeat;
+
   background-size: cover;
   left: 0;
   right: 0;
   top: 0;
   height: 100vh;
   z-index: -1;
-  background-position: center;
-  background-size: cover;
 }
 /* ------------------------------------------ */
 

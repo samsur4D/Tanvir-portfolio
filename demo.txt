@@ -1,117 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
+body::before {
+  content: "";
+  position: fixed;
+  /* background: #040404 url("../img/IMG_20240818_210308_890@1940634825\ \(1\).jpg") top right no-repeat; */
+  background: #040404 url("../img/real.png") top right no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: -1;
+  background-position: center;
+  background-size: cover;
+}
+/* ------------------------------------------ */
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+@media (min-width: 1024px) {
+  body::before {
+    background-attachment: fixed;
+  }
+}
 
-  <title>Conference Paper - 01</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-  <script src="https://cdn.tailwindcss.com"></script>
+a {
+  color: #18d26e;
+  text-decoration: none;
+}
 
+a:hover {
+  color: #35e888;
+  text-decoration: none;
+}
 
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  
-  <link href="assets/css/style.css" rel="stylesheet">
-
- 
-</head>
-
-<body class="">
-
-  <main id="main">
-
- 
-    <div id="portfolio-details" class="portfolio-details bgy">
-      <div class="container ">
-
-        <div class="row">
-
-         
-          <div class="col-lg-4">
-            <h1 class="portfolio-title text-2rem" style="font-size: 2em;">Study of Morphological and Antimicrobial Analysis of Green Synthesized Cu-doped Co-Zn Oxide Nanoparticles using Mikania Micrantha (Leaf) extact</h1>
-    
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-    
-                <div class="swiper-slide">
-                  <img src="assets/img/1.jpeg" class="img-fluid w-[700px] h-[500px] object-cover" alt="">
-                </div>
-    
-                <div class="swiper-slide">
-                  <img src="assets/img/2.jpeg" class="img-fluid w-[700px] h-[500px] object-cover" alt="">
-                </div>
-    
-                <div class="swiper-slide">
-                  <img src="assets/img/3.jpeg" class="img-fluid w-[700px] h-[500px] object-cover" alt="">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/4.jpeg" class="img-fluid w-[700px] h-[500px] object-cover" alt="">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/5 (2).jpeg" class="img-fluid w-[700px] h-[500px] object-cover" alt="">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/6.jpeg" class="img-fluid w-[700px] h-[500px] object-cover" alt="">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/7.jpeg" class="img-fluid w-[700px] h-[500px] object-cover" alt="">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/8.jpeg" class="img-fluid w-[700px] h-[500px] object-cover" alt="">
-                </div>
-                
-    
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-    
-          </div>
-          
-
-          <div class="col-lg-7 bgyi portfolio-info abstract">
-            <h3 class="text-2xl" style="font-size: 3.2em;">Abstract</h3>
-            <!-- abstract details  -->
-         <p class="text-xl text-justify" style="font-size: 1.3em;">In the field of nanotechnology, particularly in the application of therapeutic, drug transporters, and drug delivery, eco-friendly nanoparticle production techniques have become increasingly popular. In this study, we used the green route for synthesizing Cu-doped Co-ZnO nanoparticles using Mikania micrantha (leaf) extract and tested against gram-positive S. aureus and gram-negative E. coli bacteria. The synthesized material exhibits intriguing morphological, and compositional transformations, which we investigated using Scanning Electron Microscopy (SEM) and Energy Dispersive Spectroscopy (EDS) analysis, and monitored its antibacterial characteristics against E. coli and S. aureus using the Zone of inhibition test (ZOI). The SEM image confirmed that the synthesized particles were in the nanometer range at the resolution of different magnifications and showed the agglomerated spherical-like morphology, agglomeration of rod-like morphology, and also the Flake-like morphology of Cu-doped Co-Zn oxide NPs. The chemical composition of the doped and undoped particles was revealed by EDS diagrams. The Zone of Inhibition (ZOI) test disclosed the antibacterial efficacy and compared the antimicrobial properties of doped and undoped samples.</p>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-  </main>
-
-  <div class="credits">
-  
-    
-  </div>
-
- 
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  
-  <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
