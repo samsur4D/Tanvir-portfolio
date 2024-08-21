@@ -5,9 +5,10 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Projects Details - Pet Adoption Platform</title>
+  <title>Conference Paper - 01</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+  <script src="https://cdn.tailwindcss.com"></script>
 
 
   <link href="assets/img/favicon.png" rel="icon">
@@ -30,35 +31,50 @@
  
 </head>
 
-<body>
+<body class="">
 
   <main id="main">
 
  
-    <div id="portfolio-details" class="portfolio-details">
-      <div class="container">
+    <div id="portfolio-details" class="portfolio-details bgy">
+      <div class="container ">
 
         <div class="row">
 
          
-          <div class="col-lg-5">
-            <h1 class="portfolio-title">Enhancing ceramic tile’s physical and mechanical performance: utilizing Coconut Coir Ash (CCA) as a raw material</h1>
+          <div class="col-lg-4">
+            <h1 class="portfolio-title text-2rem" style="font-size: 2em;">Study of Morphological and Antimicrobial Analysis of Green Synthesized Cu-doped Co-Zn Oxide Nanoparticles using Mikania Micrantha (Leaf) extact</h1>
     
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
     
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/ss2.jpg" class="img-fluid w-96 h-96" alt="">
+                  <img src="assets/img/1.jpeg" class="img-fluid w-[700px] h-[500px] object-cover" alt="">
                 </div>
     
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/ss3.jpg" class="img-fluid w-96 h-96" alt="">
+                  <img src="assets/img/2.jpeg" class="img-fluid w-[700px] h-[500px] object-cover" alt="">
                 </div>
     
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/ss1.jpg" class="img-fluid w-96 h-96" alt="">
+                  <img src="assets/img/3.jpeg" class="img-fluid w-[700px] h-[500px] object-cover" alt="">
                 </div>
-               
+                <div class="swiper-slide">
+                  <img src="assets/img/4.jpeg" class="img-fluid w-[700px] h-[500px] object-cover" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/5 (2).jpeg" class="img-fluid w-[700px] h-[500px] object-cover" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/6.jpeg" class="img-fluid w-[700px] h-[500px] object-cover" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/7.jpeg" class="img-fluid w-[700px] h-[500px] object-cover" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/8.jpeg" class="img-fluid w-[700px] h-[500px] object-cover" alt="">
+                </div>
+                
     
               </div>
               <div class="swiper-pagination"></div>
@@ -67,9 +83,10 @@
           </div>
           
 
-          <div class="col-lg-4 portfolio-info">
-            <h3>Abstract</h3>
-         <p>Ceramic tiles are widely utilized in construction for flooring and wall coverings due to their exceptional durability, aesthetic appeal, and versatility. However, the traditional production of these goods relies on limited resources, leading to environmental concerns and sustainability issues. As an abundant agricultural waste, coconut coir and husk can be an alternative raw material for tile production, as its ash contains valuable constituents such as SiO2, Al2O3, and CaO, among others, making it suitable for potentially reducing the industry's dependence on traditional resources such as silica and feldspar. This research investigates the possibility of utilizing coconut coir ash (0%, 5%, 15%, and 20%), a byproduct of the coconut industry, as a renewable and environmentally friendly resource for producing ceramic tiles. The water absorption rate was greatly reduced, especially for the 15% coconut coir ash batch. Also, a reduction in porosity was noticed within the increasing percentage of the ash in the composition. On the contrary, firing shrinkage showed a mixed result, and loss due to ignition increased proportionally with the increasing rate of the ash content. Regarding the physical characteristics, impact strength, compressive strength, tensile strength, and modulus of rupture increased with the rising CCA content, with the best results observed in the 15% batch.</p>
+          <div class="col-lg-7 bgyi portfolio-info abstract">
+            <h3 class="text-2xl" style="font-size: 3.2em;">Abstract</h3>
+            <!-- abstract details  -->
+         <p class="text-xl text-justify" style="font-size: 1.3em;">In the field of nanotechnology, particularly in the application of therapeutic, drug transporters, and drug delivery, eco-friendly nanoparticle production techniques have become increasingly popular. In this study, we used the green route for synthesizing Cu-doped Co-ZnO nanoparticles using Mikania micrantha (leaf) extract and tested against gram-positive S. aureus and gram-negative E. coli bacteria. The synthesized material exhibits intriguing morphological, and compositional transformations, which we investigated using Scanning Electron Microscopy (SEM) and Energy Dispersive Spectroscopy (EDS) analysis, and monitored its antibacterial characteristics against E. coli and S. aureus using the Zone of inhibition test (ZOI). The SEM image confirmed that the synthesized particles were in the nanometer range at the resolution of different magnifications and showed the agglomerated spherical-like morphology, agglomeration of rod-like morphology, and also the Flake-like morphology of Cu-doped Co-Zn oxide NPs. The chemical composition of the doped and undoped particles was revealed by EDS diagrams. The Zone of Inhibition (ZOI) test disclosed the antibacterial efficacy and compared the antimicrobial properties of doped and undoped samples.</p>
           </div>
 
         </div>
