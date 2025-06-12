@@ -15,6 +15,17 @@
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
+<script>
+   function downloadResume() {
+    const link = document.createElement('a');
+    link.href = 'https://drive.google.com/file/d/1Yi9L8h5cS__Zs4GfAujU0psaNK-OoD83/view?usp=drive_link';  // Update the path to your PDF file here
+    link.download = 'resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+</script>
+
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -30,7 +41,7 @@
   <main id="main">
     <div id="portfolio-details" class="portfolio-details">
       <div class="container">
-        <div class="row">
+        <!-- <div class="row">
 
           <div class="col-lg-4 col-md-12 ">
             <h1 class="portfolio-title text-2rem text-2xl sm:text-3xl lg:text-4xl w-full  border" style="font-size: 2em;">
@@ -75,14 +86,81 @@
 
           <div class="col-lg-7 col-md-12 portfolio-info mt-12 lg:mt-60 xl:mt-60 border">
             <h3 class="text-2xl sm:text-3xl lg:text-4xl" style="font-size: 3.2em;">Abstract</h3>
-            <!-- abstract details  -->
+            
             <p class="text-lg sm:text-xl lg:text-2xl text-justify" style="font-size: 1.3em;">
               In the field of nanotechnology, particularly in the application of therapeutic, drug transporters, and drug delivery, eco-friendly nanoparticle production techniques have become increasingly popular. In this study, we used the green route for synthesizing Cu-doped Co-ZnO nanoparticles using Mikania micrantha (leaf) extract and tested against gram-positive S. aureus and gram-negative E. coli bacteria. The synthesized material exhibits intriguing morphological, and compositional transformations, which we investigated using Scanning Electron Microscopy (SEM) and Energy Dispersive Spectroscopy (EDS) analysis, and monitored its antibacterial characteristics against E. coli and S. aureus using the Zone of inhibition test (ZOI). The SEM image confirmed that the synthesized particles were in the nanometer range at the resolution of different magnifications and showed the agglomerated spherical-like morphology, agglomeration of rod-like morphology, and also the Flake-like morphology of Cu-doped Co-Zn oxide NPs. The chemical composition of the doped and undoped particles was revealed by EDS diagrams. The Zone of Inhibition (ZOI) test disclosed the antibacterial efficacy and compared the antimicrobial properties of doped and undoped samples.
             </p>
           </div>
 
-        </div>
+        </div> -->
       </div>
+      <div class="">
+         <h1 class="portfolio-title text-3rem text-xl sm:text-3xl lg:text-4xl w-full " style="font-size: 3em;">
+              Study of Morphological and Antimicrobial Analysis of Green Synthesized Cu-doped Co-Zn Oxide Nanoparticles using Mikania Micrantha (Leaf) extract
+            </h1>
+
+            
+      </div>
+
+      
+        <div class="flex ">
+            <div class="col-lg-7 col-md-12 portfolio-info mt-20  ">
+            <h3 class="text-2xl sm:text-3xl lg:text-4xl" style="font-size: 4.2em;">Abstract</h3>
+            <!-- abstract details  -->
+            <p class="text-lg  text-justify" style="font-size: 2em;">
+              In the field of nanotechnology, particularly in the application of therapeutic, drug transporters, and drug delivery, eco-friendly nanoparticle production techniques have become increasingly popular. In this study, we used the green route for synthesizing Cu-doped Co-ZnO nanoparticles using Mikania micrantha (leaf) extract and tested against gram-positive S. aureus and gram-negative E. coli bacteria. The synthesized material exhibits intriguing morphological, and compositional transformations, which we investigated using Scanning Electron Microscopy (SEM) and Energy Dispersive Spectroscopy (EDS) analysis, and monitored its antibacterial characteristics against E. coli and S. aureus using the Zone of inhibition test (ZOI). The SEM image confirmed that the synthesized particles were in the nanometer range at the resolution of different magnifications and showed the agglomerated spherical-like morphology, agglomeration of rod-like morphology, and also the Flake-like morphology of Cu-doped Co-Zn oxide NPs. The chemical composition of the doped and undoped particles was revealed by EDS diagrams. The Zone of Inhibition (ZOI) test disclosed the antibacterial efficacy and compared the antimicrobial properties of doped and undoped samples.
+            </p>
+
+            <div class="resume-item mt-20">
+      <h4></h4>
+      <p class="">
+        <button onclick="downloadResume()" class="btn btn-primary ml-5">Full View Paper</button>
+      </p>
+    </div>
+          </div>
+          <!--  -->
+          <div class="portfolio-details-slider swiper mt-20 ">
+              <div class="swiper-wrapper align-items-center h-[760px] object-cover w-[500px]">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/1.jpeg" class="img-fluid w-full h-auto object-cover" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/new2.png" class="img-fluid w-full h-auto object-cover" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/3.jpeg" class="img-fluid w-full h-auto object-cover" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/4.jpeg" class="img-fluid w-full h-auto object-cover" alt="">
+                </div>
+                <!-- <div class="swiper-slide">
+                  <img src="assets/img/5 (2).jpeg" class="img-fluid w-full h-auto object-cover" alt="">
+                </div> -->
+                <div class="swiper-slide">
+                  <img src="assets/img/6.jpeg" class="img-fluid w-full h-auto object-cover" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/7.jpeg" class="img-fluid w-full h-auto object-cover" alt="">
+                </div>
+                <!-- <div class="swiper-slide">
+                  <img src="assets/img/8.jpeg" class="img-fluid w-full h-auto object-cover" alt="">
+                </div> -->
+
+              </div>
+              <!-- <div class="swiper-pagination "></div> -->
+            </div>
+
+          </div>
+
+          
+          
+
+        </div>
+      
+
     </div>
   </main>
 
